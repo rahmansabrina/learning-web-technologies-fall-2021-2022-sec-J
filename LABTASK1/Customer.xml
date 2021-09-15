@@ -1,0 +1,30 @@
+<customers>
+  <customer id="1">
+     <SL_NO>23</SL_NO>
+	 <Name>John Carter</Name>
+	 <Admission_date>
+	     <day>25</day>
+		 <month>12</month>
+		 <year>2015</year>
+	 </Admission_date>
+  </customer>
+  <customer id="2">
+     <SL_NO>29</SL_NO>
+	 <Name>Bob Marshal </Name>
+	 <Admission_date>
+	     <day>13</day>
+		 <month>01</month>
+		 <year>1999</year>
+	 </Admission_date>
+  </customer>
+  <customer id="3">
+     <SL_NO>35</SL_NO>
+	 <Name>clark kent  </Name>
+	 <Admission_date>
+	     <day>17</day>
+		 <month>06</month>
+		 <year>2005</year>
+	 </Admission_date>
+  </customer>
+  
+</customers>

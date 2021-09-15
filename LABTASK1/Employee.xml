@@ -1,0 +1,29 @@
+<employees>
+  <employee id="1">
+     <ID>1</ID>
+	 <Name>John Doe</Name>
+	 <Address>
+	    H#38,R#3,Banani,Dhaka 
+	 </Address>
+	 <department>sales</department>
+	 <salary>$20000</salary>
+  </employee>
+  <employee id="2">
+     <ID>2</ID>
+	 <Name>Mark Zuckerberg </Name>
+	 <Address>
+	    Flat#A/1,H#20,R#18,Mirpur,Dhaka 
+	 </Address>
+	 <department>accounts</department>
+	 <salary>$12000</salary>
+  </employee>
+  <employee id="3">
+     <ID>3</ID>
+	 <Name>Ala voski </Name>
+	 <Address>
+	    H#38,R#3,Motijheel 
+	 </Address>
+	 <department>human resource</department>
+	 <salary>$30000</salary>
+  
+</employees>
