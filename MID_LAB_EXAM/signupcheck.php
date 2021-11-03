@@ -12,7 +12,7 @@
 					fwrite($myfile, $user);
 					fclose($myfile);
 
-					header('location: userhtml.html');
+					header('location: userhome.html');
 				}else{
 					echo "Invalid name...";
 				}	

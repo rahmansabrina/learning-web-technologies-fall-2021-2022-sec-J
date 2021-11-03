@@ -1,0 +1,14 @@
+<?php
+    session_start();
+    if(isset($_COOKIE['isLoggedIn'])){
+        if($_COOKIE['isLoggedIn']=='true'){
+            header('location:../views/home.php');
+        }
+        else{
+            header('location:../views/login.php');
+        }
+    }
+    else{
+        header('location:../views/login.php');
+    }
+?>
