@@ -6,28 +6,27 @@
 	<center>
 	</center>
 
-	<form method="post" action="">
+	<form method="post" action="display.php">
 		<fieldset>
 			<legend>Add Product </legend>
 			<table>
 				<tr>
 					<td>Name:</td>
-					<td><input type="text" name="username" value=""></td>
+					<td><input type="text" name="username" value="<?= $product['name'] ?>"></td>
 				</tr>
 				<tr>
 					<td>Buying Price:</td>
-					<td><input type="text" name="buying_price" value=""></td>
+					<td><input type="text" name="buying_price" value="<?= $product['buying_price'] ?>"></td>
 				</tr>
 				<tr>
 					<td>Selling Price:</td>
-					<td><input type="text" name="selling_price" value=""></td>
+					<td><input type="text" name="selling_price" value="<?= $product['selling_price'] ?>"></td>
 				</tr>
 				<tr>
 				<td><input type="checkbox" name="display" value="">Display</td>
 				</tr>
 				<tr>
-					<td><input type="submit" name="submit" value="SAVE">
-					<a href="display.php"> Display </a></td>
+					<td><input type="submit" name="submit" value="SAVE"></td>
 				</tr>
 			</table>
 		</fieldset>
