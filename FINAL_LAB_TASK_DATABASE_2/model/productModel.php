@@ -17,7 +17,7 @@
 
 	function addUser($products){
 		$con = getConnection();
-		$sql= "insert into products values('','{$products['name']}', '{$products['buying_price']}', '{$products['email']}', '{$products['type']}')";
+		$sql= "insert into products values('','{$products['name']}', '{$products['buying_price']}', '{$products['selling_price']}', '{$products['display']}')";
 		
 		if(mysqli_query($con, $sql)){
 			return true;
@@ -43,7 +43,7 @@
 
 	function editUser($products){
 		$con = getConnection();
-		$sql= "update products set name='{$products['username']}', buying_price='{$products['buying_price']}', email='{$products['email']}' where id={$products['id']}";
+		$sql= "update products set name='{$products['username']}', buying_price='{$products['buying_price']}', selling_price='{$products['selling_price']}' where id={$products['id']}";
 		
 		if(mysqli_query($con, $sql)){
 			return true;

@@ -1,6 +1,6 @@
 <?php 
 
-	require_once('../model/usersModel.php');
+	require_once('../model/productModel.php');
 	
 ?>
 
