@@ -1,0 +1,23 @@
+.d1 {
+  width: 250px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.sub-d1 {
+  margin: 10px;
+}
+.img-1 {
+  height: 30px;
+  width: 30px;
+  border-radius: 100px;
+}
+.img-2 {
+  width: 250px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+body {
+  background-color: black;
+}
